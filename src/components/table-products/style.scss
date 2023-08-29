@@ -1,0 +1,104 @@
+#table-products {
+
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+        color: #646464;
+        background-color: #f9fafc;
+        border-bottom: solid 1px #eee;
+
+        th {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th:first-child {
+            text-align: center;
+        }
+    }
+
+    tbody {
+
+        td {
+            color: #646464;
+            padding: 10px;
+            border-bottom: solid 1px #eee;
+        }
+
+        tr>td:first-child {
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: #fdf8d7;
+        }
+
+        .tooltip-container {
+            position: relative;
+            display: inline-block;
+
+            .pointer {
+                font-size: 20px !important;
+            }
+
+            .option {
+                width: 30px;
+                cursor: pointer;
+                text-align: center;
+            }
+        }
+
+        .tooltip {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f9fafc;
+            color: #fff;
+            padding: 10px 10px;
+            border-radius: 5px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.2s, visibility 0.2s;
+            border: solid 1px #eee;
+            box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            h4 {
+                display: flex;
+                margin: 0;
+                padding-bottom: 5px;
+                margin-bottom: 10px;
+                color: #646464;
+                border-bottom: solid 1px gainsboro;
+            }
+        }
+
+        .tooltip-container:hover .tooltip {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .tooltip-button {
+            padding: 8px 15px;
+            border: none;
+        }
+
+        .edit-button {
+            margin-right: 10px;
+        }
+
+        img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+        }
+    }
+
+}

@@ -1,0 +1,62 @@
+#form {
+
+    .card {
+        width: 500px;
+        margin: 0 auto;
+
+        h2 {
+            margin: 0px;
+            color: #0f265c;
+            font-size: 18px;
+            text-align: center;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            border-bottom: solid 1px gainsboro;
+        }
+
+        .row {
+
+            .col {
+
+                label {
+                    color: #0f265c;
+                    display: flex;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+
+                input {
+                    min-width: 200px;
+                }
+            }
+        }
+
+        .successfully {
+            display: block;
+            text-align: center;
+            padding: 10px;
+            color: white;
+            border-radius: 5px;
+            background-color: #0da200;
+        }
+
+        .footer {
+            width: 250px;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            align-items: center;
+            justify-content: space-between;
+
+            button {
+                padding: 15px 30px;
+            }
+
+            button:first-child {
+                background-color: gainsboro;
+            }
+        }
+    }
+
+}

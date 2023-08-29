@@ -1,0 +1,32 @@
+#not-found {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-not-found {
+        text-align: center;
+
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+            margin: 0;
+            color: #c43030 !important;
+            margin-top: 10vh;
+        }
+
+        h4 {
+            font-weight: bold;
+            margin: 0;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+
+        a {
+            margin-top: 15px;
+            display: block;
+            font-size: 18px;
+        }
+        
+    }
+}

@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f6fa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-size: 14px;
+}
+
+.main {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+input[type="text"] {
+  padding: 13px;
+  border-radius: 7px;
+  border: solid 2px gainsboro;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #fd0;
+  box-shadow: none;
+}
+
+select {
+  width: 65px;
+  padding: 5px 5px 5px 10px;
+  border-radius: 5px;
+  background-color: white;
+  border: solid 2px gainsboro;
+}
+
+a {
+  text-decoration: none;
+  color: #0f265c;
+}
+
+a:hover {
+  color: #1b439f;
+}
+
+button,
+.button {
+  color: #0f265c;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fd0;
+  border: none;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+button:hover,
+.button:hover {
+  opacity: 0.7;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .col {
+    margin-bottom: 20px;
+  }
+
+}
+
+.error {
+  display: flex;
+  color: red;
+}
+
+.pointer {
+  cursor: pointer;
+}
